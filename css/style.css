@@ -1,0 +1,315 @@
+body p ul li{
+  font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+.header-logo{
+  text-align: center;
+  padding-top: 35px;
+}
+
+.header-list{
+  display: block;
+  width: 980px;
+  margin: 0 auto;
+  /* border: solid 1px; */
+  padding-bottom: 8px;
+}
+
+.header-list ul{
+  display: flex;
+  justify-content: space-between;
+}
+.concept,.novelles,.brasserie,.cafe,.boulangerie,.dejeuner,.adresses{
+  padding-top: 12px;
+}
+
+.border-img{
+  /* border: solid 10px;
+  border-image: url(../img/bg_header.gif);
+  border-image-repeat: repeat; */
+  background: url(../img/bg_header.gif);
+  height: 12px;
+}
+
+.slick img{
+  width: 940px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.background-main-img{
+  background: url(../img/bg.gif);
+  height: 1239px;
+}
+
+.img-contents{
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  /* border: solid 1px; */
+  background-color: #ECEAE7;
+  height: 1239px
+}
+
+.nouveau-img{
+  padding-bottom: 50px;
+  padding-left: 5px;
+}
+
+.nouveau-contents{
+  /* border: solid 1px; */
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.nouveau{
+  display: block;
+  width: 710px;
+  /* border: solid 1px; */
+  padding-left: 10px;
+}
+
+.nouveau-text{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #513C1A;
+}
+
+.nouveau-text span{
+  color:#A74136;
+}
+
+.side-contents{
+  display: block;
+  width: 220px;
+  height: 740px;
+  position: relative;
+  padding-left: 9px;
+}
+
+.facebook-page{
+  display: block;
+  width: 220px;
+  height: 63px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #2C59A0;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.facebook_btn2{/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 20px;/*高さ*/
+  width: 80px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 10px;/*文字のサイズ*/
+  line-height: 0;/*高さと合わせる*/
+  background: #1877F2;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.facebook_btn2:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: #1877F2;
+}
+
+.facebook_btn2 .fa-facebook{/*アイコン*/
+  font-size: 16px;/*アイコンサイズ*/
+  position: relative;
+  bottom: 0;/*アイコン位置の微調整*/
+  top:2px;
+}
+
+.facebook_btn2 span{/*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s;
+}
+
+
+.insta-page{
+  display: block;
+  width: 220px;
+  height: 63px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+  font-size: 12px;
+  color: #655133;
+  line-height: 1.7;
+}
+
+.insta_btn2{/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 20px;/*高さ*/
+  width: 80px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 10px;/*文字のサイズ*/
+  line-height: 0;/*高さと合わせる*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.insta_btn2:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+.insta_btn2 .fa-instagram{/*アイコン*/
+  font-size: 16px;/*アイコンサイズ*/
+  position: relative;
+  bottom: 0;/*アイコン位置の微調整*/
+  top:2px;
+}
+
+.insta_btn2 span{/*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s;
+}
+
+
+.twitter-page{
+  display: block;
+  width: 220px;
+  height: 63px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #3E3A39;
+  line-height: 1.7;
+}
+
+.twitter_btn2{/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 20px;/*高さ*/
+  width: 80px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 10px;/*文字のサイズ*/
+  line-height: 0;/*高さと合わせる*/
+  background: #3595E0;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.twitter_btn2:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: #3595E0;
+}
+
+.twitter_btn2 .fa-twitter{/*アイコン*/
+  font-size: 16px;/*アイコンサイズ*/
+  position: relative;
+  bottom: 0;/*アイコン位置の微調整*/
+  top:2px;
+}
+
+.twitter_btn2 span{/*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s;
+}
+
+.reservation-img{
+  margin: 5px 0;
+}
+
+.newsLetter-img{
+  margin-bottom: 5px;
+}
+
+.inner-text{
+  position: absolute;
+  top: 47%;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.center{
+  text-align: center;
+}
+
+.hot-time{
+  color: #A74136;
+  padding: 10px 20px;
+}
+
+.food-menu{
+  padding-left: 30px;
+}
+
+.lunch-menu{
+  position: absolute;
+  top: 99%;
+  color: #fff;
+  font-size: 10px;
+  padding-left: 30px;
+}
+
+.main-contents{
+  display: flex;
+}
+
+.footer-border{
+  background: url(../img/bg_footer.gif);
+  height: 14px;
+}
+
+.footer-flex{
+  display: block;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text{
+  display: flex;
+  font-size: 14px;
+  color: #513C1A;
+}
+
+.footer-text li{
+  padding-right: 10px;
+}
+
+.Copyright{
+  font-size: 12px;
+}
